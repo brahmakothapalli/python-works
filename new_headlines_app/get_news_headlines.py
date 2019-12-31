@@ -1,4 +1,4 @@
-# This program gets the headlines from the News 18 website
+# This program gets the headlines from the News 18 WEB APP
 
 import requests
 from bs4 import BeautifulSoup as bs
