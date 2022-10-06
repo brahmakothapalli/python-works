@@ -1,4 +1,3 @@
-from xmlrpc.client import Server
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
@@ -30,7 +29,7 @@ def data_scraping(browser):
         cost.append(c.text.strip())
     
     zipped_tuple = zip(title, cost)    
-    with open("WhatsAppBotAutomation/scrapped_data.csv", 'w', newline='', encoding='utf-8') as csv_file:
+    with open("WebScrapingUsingSelenium/scrapped_data.csv", 'w', newline='', encoding='utf-8') as csv_file:
         writer_obj = csv.writer(csv_file)
         # writer_obj.writerow("web scraping completed")
         for val in list(zipped_tuple):
