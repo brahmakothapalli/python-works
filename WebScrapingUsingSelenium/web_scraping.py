@@ -41,6 +41,6 @@ def data_scraping(browser):
 if __name__ == '__main__':
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))    
     launch_application(driver)
-    search_product(driver, "iPhone 13")
+    search_product(driver, "Apple iPhone 13")
     data_scraping(driver)
     driver.quit()
