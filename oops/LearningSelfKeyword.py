@@ -11,3 +11,4 @@ obj = master()
 obj.servent()
 obj.servent2()
 # master.servent(obj)
+# instead of self, we canuse
