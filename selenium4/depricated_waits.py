@@ -7,3 +7,4 @@ def set_up():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     driver.maximize_window()
     driver.get("https://www.google.com")
+    driver.timeouts.implicit_wait(timeout=15)
