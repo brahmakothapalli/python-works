@@ -9,11 +9,13 @@ def read_integers():
     print(a)
     print(type(a[0]))
 
+
 def read_integers_using_map():
     a = map(int, input("enter values: ").split())
     my_list = list(a)
     print(my_list)
     print(type(my_list[0]))
+
 
 def read_float_values_using_map():
     a = map(float, input("enter float values with comma seperated: ").split(","))
@@ -21,17 +23,19 @@ def read_float_values_using_map():
     print(my_list)
     print(type(my_list[0]))
 
+
 def read_integers_set():
     a = map(int, input("enter values: ").split())
     my_list = set(a)
     print(my_list)
     print(type(my_list[0]))
 
+
 if __name__ == "__main__":
-    print("reading intergers")
+    print("reading integers")
     read_integers()
-    print("reading intergers using map")
+    print("reading integers using map")
     read_integers_using_map()
-    print("rading float values")
+    print("reading float values")
     read_float_values_using_map()
     read_integers_set()
