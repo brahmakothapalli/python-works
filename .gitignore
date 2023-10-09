@@ -1,2 +1,4 @@
 expense_manager.db
 .venv
+.idea
+__pycache__
