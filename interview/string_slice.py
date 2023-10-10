@@ -1,3 +1,3 @@
-my_str = "Good Morning!!"
+my_str = "Good Morning!! India"
 print("lenth of the string %d ",len(my_str))
-print(slice[2])
+print(my_str[::-1])
